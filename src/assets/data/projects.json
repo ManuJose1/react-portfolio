@@ -1,0 +1,30 @@
+[
+    {
+        "title": "My first project",
+        "description": "This is a decription of my first project",
+        "languages":["JavaScript","HTML","CSS"],
+        "images":[
+            { "caption":"This is image 1", "filename":"image1.png"},
+            { "caption":"This is image 2", "filename":"image2.png"}
+        ],
+        "tags":["Front-End", "UX"],
+        "date":"14/11/2022",
+        "github":"github.com/user/sdjfnasjk",
+        "website":"www.project.com",
+        "demo": true
+    },
+    {
+        "title": "My second project",
+        "description": "This is a decription of my second project",
+        "languages":["PHP","Laravel"],
+        "images":[
+            { "caption":"This is image 1", "filename":"image1.png"},
+            { "caption":"This is image 2", "filename":"image2.png"}
+        ],
+        "tags":["Back-End"],
+        "date":"14/11/2021",
+        "github":"github.com/user/sasdfasdfk",
+        "website":"www.project2.com",
+        "demo": false        
+    }
+]
