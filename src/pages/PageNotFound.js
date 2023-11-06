@@ -6,7 +6,7 @@ const PageNotFound = () => {
 
     return(
         <div>
-            <h2>Sorry 404, the  page {location.pathname} was not found</h2>
+            <h1 className="text-3xl font-bold underline text-center">Sorry 404, the  page {location.pathname} was not found</h1>
         </div>
     );
 };
