@@ -7,7 +7,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import ProjectsIndex from "./pages/projects/Index"
+import ProjectsIndex from "./pages/projects/Index";
+import ProjectsShow from "./pages/projects/Show";
 import PageNotFound from "./pages/PageNotFound";
 import Footer from "./components/Footer";
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<ProjectsIndex />} />
+          <Route path="/projects/:slug" element={<ProjectsShow />} />
 
           <Route path="*" element={<PageNotFound />} />
         </Routes>

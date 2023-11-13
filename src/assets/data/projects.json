@@ -1,16 +1,32 @@
 [
     {
-        "title":"project name",
-        "description":"about the project",
+        "slug":"todo-app",
+        "title":"Todo App",
+        "description":"This is a todo list app. I learned about localStorage while creating this app.",
         "images":[
             {
-                "caption":"img caption",
-                "path":""
+                "caption":"homepage",
+                "path":"todo1.png"
             }
         ],
-        "date":"",
-        "tags":["Design", "UI",  "FrontEnd Dev"],
-        "website":"wwww.web.com",
-        "github":"github.com/ManuJose1"
+        "date":"2023",
+        "tags":["Javascript", "React", "FrontEnd Dev"],
+        "website":"http://google.com",
+        "github":"http://github.com/ManuJose1"
+    },
+    {
+        "slug":"giphy-app",
+        "title":"Giphy App",
+        "description":"This is an app based off the Giphy API. I learned about using API's with this app.",
+        "images":[
+            {
+                "caption":"homepage",
+                "path":"todo1.png"
+            }
+        ],
+        "date":"2023",
+        "tags":["Javascript", "React", "FrontEnd Dev", ""],
+        "website":"http://google.com",
+        "github":"http://github.com/ManuJose1"
     }
 ]
