@@ -6,13 +6,22 @@
         "images":[
             {
                 "caption":"homepage",
-                "path":"todo1.png"
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
             }
         ],
         "date":"2023",
         "tags":["Javascript", "React", "FrontEnd Dev"],
         "website":"http://google.com",
-        "github":"http://github.com/ManuJose1"
+        "github":"http://github.com/ManuJose1",
+        "demo":true
     },
     {
         "slug":"giphy-app",
@@ -21,11 +30,19 @@
         "images":[
             {
                 "caption":"homepage",
-                "path":"todo1.png"
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
             }
         ],
         "date":"2023",
-        "tags":["Javascript", "React", "FrontEnd Dev", ""],
+        "tags":["Javascript", "React", "FrontEnd Dev", "API"],
         "website":"http://google.com",
         "github":"http://github.com/ManuJose1"
     }

@@ -12,8 +12,7 @@ const Index = () => {
   return (
     <>
       <h1 className="text-3xl font-bold text-center">My Projects</h1>
-      <hr />
-      <div className="grid grid-cols-4 gap-5 justify-items-center">{projectList}</div>
+      <div className="mt-5 grid grid-cols-4 gap-5 justify-center">{projectList}</div>
     </>
   );
 };
