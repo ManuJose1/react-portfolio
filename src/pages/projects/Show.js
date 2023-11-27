@@ -1,17 +1,21 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import projectsJSON from "../../assets/data/projects.json";
+import axios from 'axios';
 
 const Show = () => {
   const { slug } = useParams();
   const [project, setProject] = useState(null);
 
   useEffect(() => {
-    // let  temp = projectsJSON.filter((project)=>{
-    //     return project.slug === slug
-    // });
 
-    setProject(projectsJSON.find((project) => project.slug === slug));
+    axios.get('https://manu-portfolio-fd228-default-rtdb.europe-west1.firebasedatabase.app/.json')
+         .then((response)=>{
+          setProject(response.data.find((project) => project.slug === slug));
+         })
+         .catch((err)=>{
+          console.log(err);
+         })
+ 
   }, []);
 
   if (!project) {
@@ -38,7 +42,7 @@ const Show = () => {
 
     imageCarousel = (
       <>
-        <div className="carousel w-full">
+        <div className="carousel">
             {items}
         </div>
         <div className="flex justify-center w-full py-2 gap-2">
@@ -50,14 +54,14 @@ const Show = () => {
 
   return (
     <>
-      <h1>{slug}</h1>
-      <p>{project.title}</p>
-      <p>{project.description}</p>
-      <p>{project.date}</p>
-      <p>{project.tags}</p>
-      <p>{project.website}</p>
-      <p>{project.github}</p>
+      <p><b>Title: </b>{project.title}</p>
       {imageCarousel}
+      <p><b>Description: </b>{project.description}</p>
+      <p><b>Date: </b>{project.date}</p>
+      <p><b>Tags: </b>{project.tags}</p>
+      <p><b>Website: </b><a href={project.website}>{project.website}</a></p>
+      <p><b>Github: </b><a href={project.github}>{project.github}</a></p>
+
     </>
   );
 };

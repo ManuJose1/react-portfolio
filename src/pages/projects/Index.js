@@ -1,10 +1,22 @@
-import projectsJSON from "../../assets/data/projects.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ProjectCard from "../../components/ProjectCard";
+import axios from 'axios';
 
 const Index = () => {
-  const [projects, setproject] = useState(projectsJSON);
+  const [projects, setProjects] = useState(null);
 
+  useEffect(()=>{
+    axios.get('https://manu-portfolio-fd228-default-rtdb.europe-west1.firebasedatabase.app/.json')
+         .then((response)=>{
+          setProjects(response.data)
+         })
+         .catch((err)=>{
+          console.log(err);
+         })
+  },[]);
+
+  if(!projects) return (<p>Loading...</p>)
+  
   const projectList = projects.map((project, i) => {
     return <ProjectCard key={i} project={project} />;
   });

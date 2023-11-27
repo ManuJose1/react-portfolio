@@ -44,6 +44,31 @@
         "date":"2023",
         "tags":["Javascript", "React", "FrontEnd Dev", "API"],
         "website":"http://google.com",
-        "github":"http://github.com/ManuJose1"
+        "github":"http://github.com/ManuJose1",
+        "demo":true
+    },
+    {
+        "slug":"laravel-app",
+        "title":"Laravel Bookstore",
+        "description":"This is a laravel app. I learned about localStorage while creating this app.",
+        "images":[
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"homepage",
+                "path":"https://picsum.photos/400"
+            }
+        ],
+        "date":"2023",
+        "tags":["Javascript", "React", "FrontEnd Dev", "Laravel"],
+        "website":"http://google.com",
+        "github":"http://github.com/ManuJose1",
+        "demo":false
     }
 ]
