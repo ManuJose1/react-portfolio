@@ -20,7 +20,7 @@
         "date":"2023",
         "tags":["Javascript", "React", "FrontEnd Dev"],
         "website":"http://google.com",
-        "github":"http://github.com/ManuJose1",
+        "github":"https://github.com/ManuJose1/react-todo",
         "demo":true
     },
     {
@@ -48,9 +48,9 @@
         "demo":true
     },
     {
-        "slug":"laravel-app",
-        "title":"Laravel Bookstore",
-        "description":"This is a laravel app. I learned about localStorage while creating this app.",
+        "slug":"rest-countries",
+        "title":"REST Countries",
+        "description":"This was the first CA I had to do for front end development in third year. It was the first project that I used an API for and helped me learn how to use them.",
         "images":[
             {
                 "caption":"homepage",
@@ -66,9 +66,9 @@
             }
         ],
         "date":"2023",
-        "tags":["Javascript", "React", "FrontEnd Dev", "Laravel"],
-        "website":"http://google.com",
-        "github":"http://github.com/ManuJose1",
+        "tags":["Javascript", "React", "FrontEnd Dev", "API"],
+        "website":"https://rest-countries-5556f.web.app/",
+        "github":"https://github.com/ManuJose1/ca1-rest-countries/tree/master",
         "demo":false
     }
 ]
