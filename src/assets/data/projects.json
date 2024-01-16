@@ -5,16 +5,8 @@
         "description":"This is a todo list app. I learned about localStorage while creating this app.",
         "images":[
             {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
-            },
-            {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
-            },
-            {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
+                "caption":"todo app",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/to_do_1.png?alt=media&token=58c53298-7c8e-4b04-931e-d0beede93053"
             }
         ],
         "date":"2023",

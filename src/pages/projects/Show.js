@@ -29,7 +29,7 @@ const Show = () => {
     let items = project.images.map((image,i)=>{
         return (
             <div id={`item${i}`} className="carousel-item w-full">
-            <img title={image.caption} src={`${image.path}`} className="w-full"/>
+            <img alt={image.caption} src={`${image.path}`} className="w-full"/>
             </div>
         )
     });

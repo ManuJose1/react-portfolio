@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import image from '../assets/images/to_do_1.png'
 
 const ProjectCard = ({project}) => {
 
@@ -9,7 +10,7 @@ const ProjectCard = ({project}) => {
     return(
         <>
         <div className="card bg-base-100 shadow-xl">
-            <figure><img src="https://picsum.photos/400" alt="Movie"/></figure>
+            <figure><img alt="todoapp" src='../assets/images/to_do_1.png'/></figure>
                 <div className="card-body">
                 <h2 className="card-title">{project.title}-{project.date}</h2>
                 <p>{project.description}</p>
