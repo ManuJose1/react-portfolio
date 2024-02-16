@@ -2,7 +2,7 @@
     {
         "slug":"todo-app",
         "title":"Todo App",
-        "description":"This is a todo list app. I learned about localStorage while creating this app.",
+        "description":"This is a todo list app. It was the first single page application we made in ftront-end development as an introduction to ReactJS and also to single page apps.",
         "images":[
             {
                 "caption":"todo app",
@@ -18,7 +18,7 @@
     {
         "slug":"giphy-app",
         "title":"Giphy App",
-        "description":"This is an app based off the Giphy API. I learned about using API's with this app.",
+        "description":"This is an app based off the Giphy API. I learned a lot about using API's with this app, sucha s how to make an api call, the GET, POST, DELETE adn PUT methods and also about using Insomnia to test api calls.",
         "images":[
             {
                 "caption":"homepage",
@@ -42,7 +42,7 @@
     {
         "slug":"rest-countries",
         "title":"REST Countries",
-        "description":"This was the first CA I had to do for front end development in third year. It was the first project that I used an API for and helped me learn how to use them.",
+        "description":"This was the first CA I had to do for front-end development in third year. It was the first project that I used an API for and helped me learn how to use them. I connected to the REST Countries API and displayed the dat it gave me in a single page application.",
         "images":[
             {
                 "caption":"homepage",
@@ -61,6 +61,70 @@
         "tags":["Javascript", "React", "FrontEnd Dev", "API"],
         "website":"https://rest-countries-5556f.web.app/",
         "github":"https://github.com/ManuJose1/ca1-rest-countries/tree/master",
+        "demo":false
+    },
+    {
+        "slug":"blender-donut",
+        "title":"Blender Donut",
+        "description":"This was my first project in blender. I followed Blender Guru's donut tutorial on youtube to make this. It was a great learning experience and is used by a many people when starting their blender journeys. Ti learned about 3D modelling, rendering and post prosseccing during this project",
+        "images":[
+            {
+                "caption":"donut step 1",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"donut step 2",
+                "path":"https://picsum.photos/400"
+            }
+        ],
+        "date":"2023",
+        "tags":["Blender", "Visual Effects", "3D Modeling"],
+        "website":"https://www.blender.org/",
+        "github":"https://github.com/ManuJose1",
+        "demo":false
+    },
+    {
+        "slug":"the-forest",
+        "title":"The Forest",
+        "description":"I made this game for my Game Development module in second year of Creative Computing. Its an FPS made using assets from the Unity asset store and code given by my lecturer but it taught me the basics of game development and using Unity.",
+        "images":[
+            {
+                "caption":"donut step 1",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"donut step 2",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"final donut render",
+                "path":"https://picsum.photos/400"
+            }
+        ],
+        "date":"2023",
+        "tags":["Unity", "Game Dev", "C#", "First-person Shooter"],
+        "website":"https://www.blender.org/",
+        "github":"https://github.com/ManuJose1",
+        "demo":false
+    },
+    {
+        "slug":"fly-knight",
+        "title":"Fly Knight",
+        "description":"I started making Fly Knight for Professinal Practice but never completed it. Its a 2D platformer inspired by games like Super Mario and Hollo Knight. It was challenging becuase I had to teac myself about developing a 2D game in Unity. ",
+        "images":[
+            {
+                "caption":"donut step 1",
+                "path":"https://picsum.photos/400"
+            },
+            {
+                "caption":"donut step 2",
+                "path":"https://picsum.photos/400"
+            }
+        ],
+        "date":"2023",
+        "tags":["Unity", "Game Dev", "C#", "First-person Shooter"],
+        "website":"https://www.blender.org/",
+        "github":"https://github.com/ManuJose1",
         "demo":false
     }
 ]
