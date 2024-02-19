@@ -7,24 +7,25 @@ const ProjectCard = ({project}) => {
         return <div className="badge badge-outline badge-accent" key={i}>{tag}</div>
     });
 
+    let description = project.description.substring(0, 70);
+
     return(
         <>
-        <div className="card bg-base-100 shadow-xl">
-            <figure><img alt="todoapp" src='../assets/images/to_do_1.png'/></figure>
+        <div className="card card-side bg-base-100 shadow-xl">
+        <figure><img style={{width:550, height:250}} alt={project.images[0].caption} src={project.images[0].path}/></figure>
                 <div className="card-body">
                 <h2 className="card-title">{project.title}-{project.date}</h2>
-                <p>{project.description}</p>
                 <div>{tags}</div>
-                    <div className="card-actions place-content-end">
+                <p>{description}...</p>
+                    <div className="card-actions justify-centre">
                     {(project.website)?(<a href={project.website} target='_blank' rel='noreferrer' className="btn btn-wide glass btn-sm btn-primary">Website</a>):('')}
                     </div>
-                    <div className="card-actions place-content-end">
+                    <div className="card-actions justify-centre">
                     {(project.github)?(<a href={project.github}  target='_blank' rel='noreferrer' className="btn btn-wide glass btn-sm btn-primary">Github</a>):('')}
                     </div>
-                    <div className="card-actions place-content-end">
+                    <div className="card-actions justify-centre">
                     <Link className='btn btn-wide glass btn-sm btn-primary' to={`/projects/${project.slug}`}>Show</Link>
-
-                    </div>
+                </div>
                 </div>
         </div>
             

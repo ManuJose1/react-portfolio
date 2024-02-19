@@ -6,12 +6,16 @@
         "images":[
             {
                 "caption":"todo app",
-                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/to_do_1.png?alt=media&token=58c53298-7c8e-4b04-931e-d0beede93053"
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/to_do_1.png?alt=media&token=1fe49b52-373a-438f-9b45-7fc206f918ed"
+            },
+            {
+                "caption":"todo app 2",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/to_do_2.png?alt=media&token=5da114a7-0634-453e-aa35-478f8ca54045"
             }
         ],
         "date":"2023",
         "tags":["Javascript", "React", "FrontEnd Dev"],
-        "website":"http://google.com",
+        "website":"https://react-bootstrap.netlify.app/",
         "github":"https://github.com/ManuJose1/react-todo",
         "demo":true
     },
@@ -21,21 +25,17 @@
         "description":"This is an app based off the Giphy API. I learned a lot about using API's with this app, sucha s how to make an api call, the GET, POST, DELETE adn PUT methods and also about using Insomnia to test api calls.",
         "images":[
             {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
+                "caption":"giphy app",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/giphy_1.png?alt=media&token=2158ae43-1ebe-41df-949d-3d6c51d6ce94"
             },
             {
                 "caption":"homepage",
-                "path":"https://picsum.photos/400"
-            },
-            {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/giphy_2.png?alt=media&token=a11a320f-d6b7-4429-9f03-e3630c4a3e51"
             }
         ],
         "date":"2023",
         "tags":["Javascript", "React", "FrontEnd Dev", "API"],
-        "website":"http://google.com",
+        "website":"https://giphy.com/",
         "github":"http://github.com/ManuJose1",
         "demo":true
     },
@@ -45,16 +45,16 @@
         "description":"This was the first CA I had to do for front-end development in third year. It was the first project that I used an API for and helped me learn how to use them. I connected to the REST Countries API and displayed the dat it gave me in a single page application.",
         "images":[
             {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
+                "caption":"rest countries",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/countries_1.png?alt=media&token=84fe9e94-158b-4895-938a-21db0cadd560"
             },
             {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
+                "caption":"rest countries 2",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/countries_2.png?alt=media&token=a9571ec1-aceb-4009-b31a-02ed5bbfe8dc"
             },
             {
-                "caption":"homepage",
-                "path":"https://picsum.photos/400"
+                "caption":"rest countries 3",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/countries_3.png?alt=media&token=ae712c34-0f4a-4b56-824f-4229d61d1fda"
             }
         ],
         "date":"2023",
@@ -69,12 +69,16 @@
         "description":"This was my first project in blender. I followed Blender Guru's donut tutorial on youtube to make this. It was a great learning experience and is used by a many people when starting their blender journeys. Ti learned about 3D modelling, rendering and post prosseccing during this project",
         "images":[
             {
+                "caption":"donut final render",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/DonutFinal.png?alt=media&token=1c9ed0f4-1c05-48e4-ae48-8af2490ea3fe"
+            },
+            {
                 "caption":"donut step 1",
-                "path":"https://picsum.photos/400"
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/blender_donut_1.png?alt=media&token=932c5e94-6fdc-4d73-8fc1-07595ad7c3aa"
             },
             {
                 "caption":"donut step 2",
-                "path":"https://picsum.photos/400"
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/blender_donut_2.png?alt=media&token=b809c718-0028-4e16-8158-72fe7d441b19"
             }
         ],
         "date":"2023",
@@ -89,21 +93,21 @@
         "description":"I made this game for my Game Development module in second year of Creative Computing. Its an FPS made using assets from the Unity asset store and code given by my lecturer but it taught me the basics of game development and using Unity.",
         "images":[
             {
-                "caption":"donut step 1",
-                "path":"https://picsum.photos/400"
+                "caption":"the forest game",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/Forest1.png?alt=media&token=9971fbec-78be-4470-9a6b-b06b6978069b"
             },
             {
-                "caption":"donut step 2",
-                "path":"https://picsum.photos/400"
+                "caption":"the forest game 2",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/Forest2.png?alt=media&token=2d416ab2-279d-46c7-a738-7414ef55d006"
             },
             {
-                "caption":"final donut render",
-                "path":"https://picsum.photos/400"
+                "caption":"the forest game 3",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/Forest3.png?alt=media&token=be257de6-d7fb-4340-965b-ef924d846466"
             }
         ],
         "date":"2023",
         "tags":["Unity", "Game Dev", "C#", "First-person Shooter"],
-        "website":"https://www.blender.org/",
+        "website":"https://unity.com/",
         "github":"https://github.com/ManuJose1",
         "demo":false
     },
@@ -113,17 +117,34 @@
         "description":"I started making Fly Knight for Professinal Practice but never completed it. Its a 2D platformer inspired by games like Super Mario and Hollo Knight. It was challenging becuase I had to teac myself about developing a 2D game in Unity. ",
         "images":[
             {
-                "caption":"donut step 1",
-                "path":"https://picsum.photos/400"
+                "caption":"fly knight 1",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/FlyKnight1.png?alt=media&token=f278d5da-8805-4c42-9675-06991a35453c"
             },
             {
-                "caption":"donut step 2",
-                "path":"https://picsum.photos/400"
+                "caption":"fly knight 2",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/FlyKnight2.png?alt=media&token=209ed45c-5715-4174-a7a6-484b3640c244"
+            },
+            {
+                "caption":"fly knight 3",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/FlyKnight3.png?alt=media&token=a967c875-5301-499e-8304-6e17e68c18b3"
+            },
+            {
+                "caption":"fly knight 4",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/FlyKnight4.png?alt=media&token=0caf3177-029b-4977-8d14-3d33aa56f79b"
+            },
+            {
+                "caption":"fly knight 5",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/FlyKnight5.png?alt=media&token=ac936097-9de7-4b8c-ade9-d5801ba22469"
+            },
+            {
+                "caption":"fly knight 6",
+                "path":"https://firebasestorage.googleapis.com/v0/b/manu-portfolio-fd228.appspot.com/o/FlyKnight6.png?alt=media&token=1ee25f4e-3eea-41b5-ae3b-26f0dec18c7a"
             }
+            
         ],
         "date":"2023",
         "tags":["Unity", "Game Dev", "C#", "First-person Shooter"],
-        "website":"https://www.blender.org/",
+        "website":"https://unity.com/",
         "github":"https://github.com/ManuJose1",
         "demo":false
     }
