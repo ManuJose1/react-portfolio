@@ -12,7 +12,7 @@ const Hero = () => {
             <h1 className="text-5xl font-bold">Welcome to my portfolio!</h1>
             <br/>
             <p className="text-3xl py-6">
-              This website is a collection of all the work I've done from 3D Modelling in Blender to Front-End and Game Development. Im in 3rd year of Creative Computing in IADT and am proficient in HTML, CSS, Javascript and C#.
+             Hi, I’m Manu - a frontend developer & game creator. I have a BCs(Hons) in Creative Computing and I build interactive websites, immersive games, and 3D experiences using tools like React, Unity, and Blender. My work blends design and code to create engaging, user-focused digital worlds.
             </p>
           </div>
         </div>

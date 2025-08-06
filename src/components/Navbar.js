@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center">
-          <Link to='/' className="btn btn-ghost normal-case text-xl">Manu Jose Portfolio</Link>
+          <Link to='/' className="btn btn-ghost normal-case text-xl">Manu Jose</Link>
         </div>
         <div className="navbar-end">
         </div>
